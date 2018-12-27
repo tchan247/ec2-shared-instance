@@ -19,3 +19,7 @@ artifacts:
   files:
     - apps/test-app-1/app.js
     - apps/test-app-2/app.js
+    - Procfile
+    - .ebextensions/*.config
+    - .ebextensions/scripts/*.sh
+  discard-paths: no
