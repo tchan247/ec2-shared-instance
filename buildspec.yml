@@ -17,9 +17,5 @@ phases:
       - echo Build completed on `date`
 artifacts:
   files:
-    - apps/test-app-1/**/*
-    - apps/test-app-2/**/*
-    - Procfile
-    - .ebextensions/*.config
-    - .ebextensions/scripts/*.sh
+    - '**/*'
   discard-paths: no
