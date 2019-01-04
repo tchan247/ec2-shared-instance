@@ -17,5 +17,6 @@ phases:
       - echo Build completed on `date`
 artifacts:
   files:
-    - '**/*'
-  discard-paths: no
+    - 'Procfile'
+    - 'apps/test-app-1/**/*'
+    - 'apps/test-app-2/**/*'
